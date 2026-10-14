@@ -1,0 +1,10 @@
+[package]
+name = "walker"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.6.6", features = ["derive"] }
+crossbeam-channel = "0.5.16"
+walkdir = "2.5.0"
+log = "0.4.34"
